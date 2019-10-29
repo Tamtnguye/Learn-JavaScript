@@ -23,6 +23,7 @@ console.log(Number.isFinite(80)); // output = true
 console.log(Number.isFinite(0)); // output = true
 console.log(Number.isFinite("10/17/2019")); // output = false
 console.log(Number.isFinite("3")); // output = false
+console.log(Number.isFinite(4 ** 4)); // output = true
 
 // isInteger()
 
